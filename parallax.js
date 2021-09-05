@@ -123,13 +123,13 @@ $(function () {
             }
 
         if(scrollY > scrollYStart3&&flag_target3 == true){
-            target3.css('background-position-y', (scrollY - targetPosOT3) * 0.3 + 'px');
+            target3.css('background-position-y', (scrollY - targetPosOT3) * 0.2 + 'px');
             }else{
             target3.css('background-position','center top');
             }
 
         if(scrollY > scrollYStart4&&flag_target4 == true){
-            target4.css('background-position-y', (scrollY - targetPosOT4) * 0.4 + 'px');
+            target4.css('background-position-y', (scrollY - targetPosOT4) * 0.2 + 'px');
             }else{
             target4.css('background-position','center top');
             }
