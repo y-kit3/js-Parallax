@@ -89,7 +89,6 @@ nav li a {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    background-attachment: fixed;
 }
 
 #menu .menu-content {
@@ -168,7 +167,6 @@ nav li a {
     background-repeat: no-repeat;
     height: 300px;
     background-position: center top;
-    background-attachment: fixed;
 }
 
 #about ul {
@@ -254,7 +252,6 @@ nav li a {
     background-repeat: no-repeat;
     height: 300px;
     background-position: center top;
-    background-attachment: fixed;
 }
 
 #location .item-map  {
