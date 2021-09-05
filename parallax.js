@@ -110,7 +110,7 @@ $(function () {
 
     //要素が見えている時に動くようにしてます 「scrollYの値が、各開始位置よりも大きい」　かつ　「フラグがTrue（要素が見えている）」
     //みえていないときは「background-position：center top；」
-        if(scrollY > scrollYStart1){
+        if(scrollY > scrollYStart1&&flag_target1){
             target1.css('background-position-y', (scrollY - targetPosOT1) * targetFactor + 'px');
             }else{
             target1.css('background-position','center top');
