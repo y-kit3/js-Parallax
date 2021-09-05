@@ -109,7 +109,8 @@ $(function () {
         console.log('scrollY',scrollY);
 
     //要素が見えている時に動くようにしてます 「scrollYの値が、各開始位置よりも大きい」　かつ　「フラグがTrue（要素が見えている）」
-        if(scrollY > scrollYStart1&&flag_target1 == true){
+    //みえていないときは「background-position：center top；」
+        if(scrollY > scrollYStart1){
             target1.css('background-position-y', (scrollY - targetPosOT1) * targetFactor + 'px');
             }else{
             target1.css('background-position','center top');
@@ -122,13 +123,13 @@ $(function () {
             }
 
         if(scrollY > scrollYStart3&&flag_target3 == true){
-            target3.css('background-position-y', (scrollY - targetPosOT3) * 0.2 + 'px');
+            target3.css('background-position-y', (scrollY - targetPosOT3) * 0.3 + 'px');
             }else{
             target3.css('background-position','center top');
             }
 
         if(scrollY > scrollYStart4&&flag_target4 == true){
-            target4.css('background-position-y', (scrollY - targetPosOT4) * 0.2 + 'px');
+            target4.css('background-position-y', (scrollY - targetPosOT4) * 0.4 + 'px');
             }else{
             target4.css('background-position','center top');
             }
